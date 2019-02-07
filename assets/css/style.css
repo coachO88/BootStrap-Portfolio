@@ -63,6 +63,19 @@ img{
 
 }
 
+.row-project{
+    position: relative;
+    
+}
+
+.project-caption{
+    position: absolute;
+
+    left:0px;
+    top:0px;
+    color:white;
+}
+
 h1, h2, h3, p{
     margin-bottom: 20px;
 }
@@ -154,12 +167,12 @@ nav a:first-child {
     margin-bottom: 20px;
 }
 
-h3, .sidebar, h2 {
+/*h3, .sidebar, h2 {
     border-bottom: 2px solid #eee;
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
-}
+}*/
 
 .social{
     width: 62px;
